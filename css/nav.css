@@ -1,0 +1,35 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-mid-gary);
+  color: white;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+.navbar__logo a,
+i {
+  padding-left: 15px;
+  font-size: 35px;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0px 8px;
+  cursor: pointer;
+  border-radius: var(--size-border-radius);
+}
+.navbar__menu__item.active {
+  border: 1px solid white;
+}
+
+.navbar__menu__item:hover {
+  background-color: var(--color-light-gary);
+}
