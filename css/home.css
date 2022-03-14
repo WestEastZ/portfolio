@@ -1,0 +1,28 @@
+#home {
+  padding: 40px;
+  text-align: center;
+
+  background-image: url("/img/background.png");
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-grey);
+}
+
+.home__title,
+.home__description {
+  color: var(--color-dark-grey);
+}
+
+.home__button {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 15px 20px;
+  border-radius: var(--size-border-radius);
+  border: 3px solid var(--color-dark-grey);
+  color: var(--color-dark-grey);
+}
