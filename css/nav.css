@@ -37,3 +37,13 @@
 .navbar__menu__item:hover {
   background-color: var(--color-dark-white);
 }
+
+.navbar__toggle-btn {
+  position: absolute;
+  top: 8px;
+  right: 32px;
+  font-size: 32px;
+  color: white;
+  border: none;
+  display: none;
+}
