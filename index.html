@@ -146,13 +146,13 @@
       <h1>WORK</h1>
       <h3>projects</h3>
       <div class="work__categories">
-        <button class="category__btn active">
+        <button class="category__btn active" data-filter="all">
           All <span class="category__count">2</span>
         </button>
-        <button class="category__btn">
+        <button class="category__btn" data-filter="front-end">
           Fornt-end<span class="category__count">2</span>
         </button>
-        <button class="category__btn">
+        <button class="category__btn" data-filter="back-end">
           Back-end<span class="category__count">0</span>
         </button>
       </div>
@@ -162,6 +162,7 @@
           href="https://github.com/WestEastZ/kokoa-clone"
           class="project"
           target="blank"
+          data-type="front-end"
         >
           <img
             src="img/projects/kokoa_up.png"
@@ -177,6 +178,7 @@
           href="https://github.com/WestEastZ/chrome"
           class="project"
           target="blank"
+          data-type="front-end"
         >
           <img
             src="img/projects/chrome_up.PNG"
@@ -244,6 +246,7 @@
     <script src="tap_btn_move.js" defer></script>
     <script src="home_disappear.js" defer></script>
     <script src="up__arrow.js" defer></script>
+    <script src="work.js" defer></script>
 
     <!-- fontawesome -->
     <script
