@@ -86,7 +86,7 @@
   transform: translateY(0);
 }
 .project_infor h3 {
-  color: white;
+  color: orange;
 }
 
 .project_infor h3:after {
@@ -94,9 +94,9 @@
   display: block;
   position: relative;
   left: 50%;
-  margin-left: -12px;
+  transform: translateX(-50%);
   margin-top: 8px;
-  width: 25px;
+  width: 50px;
   height: 1px;
   background-color: white;
 }
