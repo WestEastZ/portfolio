@@ -64,3 +64,19 @@ button {
   max-width: 1200px;
   margin: auto;
 }
+
+.up__arrow {
+  position: fixed;
+  top: 90%;
+  right: 50px;
+  font-size: 48px;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
