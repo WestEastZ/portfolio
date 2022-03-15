@@ -3,10 +3,8 @@
 const navbar = document.querySelector("#navbar");
 const navbarHeight = navbar.getBoundingClientRect().height;
 
+// make navbar tranparent //
 document.addEventListener("scroll", () => {
-  console.log(window.scrollY);
-  console.log(`navbarHeight : ${navbarHeight}`);
-
   if (window.scrollY > navbarHeight) {
     navbar.classList.add("navbar__dark");
   } else {
