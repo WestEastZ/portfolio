@@ -16,6 +16,8 @@ navbarMenu.addEventListener("click", (event) => {
     return;
   }
   scrollIntoView(link);
+
+  navbarMenu.classList.remove("open");
 });
 
 // home contact scroll //
